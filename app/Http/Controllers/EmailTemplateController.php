@@ -8,40 +8,40 @@ class EmailTemplateController extends Controller
 {
     public function purchaseSummaryTemplate(){
 
-    	return view('emailTemplate.purchaseSummary');
+    	return view('emailTemplates.purchaseSummary');
 
     }
 
     public function leaseSummaryTemplate(){
-    	return view('emailTemplate.leaseSummary');
+    	return view('emailTemplates.leaseSummary');
     }
 
     public function customerBuybackTemplate(){
-    	return view('emailTemplate.customerBuyback');
+    	return view('emailTemplates.customerBuyback');
     }
 
     public function warrantyTemplate(){
-    	return view('emailTemplate.warranty');
+    	return view('emailTemplates.warranty');
 
     }
 
     public function newAssignedClientTemplate(){
-    	return view('emailTemplate.newAssignedClient');
+    	return view('emailTemplates.newAssignedClient');
 
     }
 
     public function serviceAppointmentTemplate(){
-    	return view('emailTemplate.serviceAppointment');
+    	return view('emailTemplates.serviceAppointment');
 
     }
 
     public function serviceHighTemplate(){
-    	return view('emailTemplate.serviceHigh');
+    	return view('emailTemplates.serviceHigh');
 
     }
 
     public function recentSericeTemplate(){
-    	return view('emailTemplate.recentSerice');
+    	return view('emailTemplates.recentSerice');
     	
     }
 }
