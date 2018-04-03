@@ -1,5 +1,7 @@
 @include('layouts.header')
 <body>
-	@yield('content')
+	<table>
+		@yield('content')
+	</table>
 </body>
 @include('layouts.footer')
