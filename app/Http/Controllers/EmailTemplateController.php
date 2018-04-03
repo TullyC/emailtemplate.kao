@@ -30,11 +30,6 @@ class EmailTemplateController extends Controller
 
     }
 
-    public function newAssignedClientTemplate(){
-    	return view('emailTemplate.purchaseSummary');
-
-    }
-
     public function serviceAppointmentTemplate(){
     	return view('emailTemplate.serviceAppointment');
 
