@@ -23,7 +23,7 @@ Route::get('/warranty_template','emailTemplateController@warrantyTemplate');
 Route::get('/new_assigned_client','emailTemplateController@newAssignedClientTemplate');
 Route::get('/service_appointment','emailTemplateController@serviceAppointmentTemplate');
 Route::get('/service_high','emailTemplateController@serviceHighTemplate');
-Route::get('/recent_service','emailTemplateController@recentSericeTemplate');
+Route::get('/recent_service','emailTemplateController@recentServiceTemplate');
 
 
 

@@ -9,7 +9,7 @@
 		margin:0 auto;
 	}
 	 body{
-	 	padding:75px 150px 0px 75px;
+	 	padding:75px 150px 75px 75px;
 	 }
  	img, a img {
  		border:0; 
@@ -54,6 +54,21 @@
 
 	tr{
 	 	padding:15px;
+	}
+
+	.no_padd tr{
+		padding:0;
+	}
+	.no_padd td{
+		padding:0;
+	}
+
+	.no_margin p{
+		margin:0;
+	}
+
+	.small_pad p{
+		padding-bottom:5px;
 	}
 </style>
 

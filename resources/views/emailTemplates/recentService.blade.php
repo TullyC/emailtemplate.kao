@@ -20,6 +20,37 @@
 		</td>
 	</tr>
 </table>
-
-@include('emailTemplates.standardFooter')
+<table class="no_margin no_padd">
+	<tr style="margin-bottom:10px; display:block;">
+		<td>
+			<p>Regards,</p>
+		</td>			
+	</tr>
+	<tr>
+		<td>
+			<p>{ salesperson }</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h4 style="margin:8px 0 5px 0;">
+				<b>Portfolio Specialist</b>
+			</h4>
+		</td>
+	</tr>
+	<tr style="margin:5px 0 8px 0; display:block;">
+		<td>
+			<p>Email: 
+				<a href="mailto:{ sales person email }" title="{ name email address }">
+					{ sales Person email }
+				</a>
+			</p>
+		</td>
+	</tr>
+	<tr style="margin:5px;">
+		<td>
+			<p>Phone: <a href="tel:{sales Person Phone}">{ Sales Person Phone }</a></p>
+		</td>
+	</tr>
+</table>
 @endsection

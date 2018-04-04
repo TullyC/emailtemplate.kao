@@ -19,11 +19,33 @@
 			</td>
 		</tr>
 	</table>
-	<table>
+	<table style="margin-bottom:15px;">
 		<tr>
-			<td> <img src="/{warranty_information_bargraph}" alt="Warranty Information" /></td>
+			<td> 
+				<img src="/{warranty_information_bargraph}" alt="Warranty Information" />
+			</td>
 		</tr>
 	</table>
+	<table class="no_margin small_pad" style="margin-bottom:15px;">
+		<tr>
+			<td>
+				<p><b><i>Start of Warranty date:</i></b> { Deal Date }</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>
+					<b><i>Warranty Company:</i></b> { Warranty Description }
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<b><i>Est. of Warranty Remaining:</i></b> { Warranty Miles Remaining } KM
+			</td>
+		</tr>
+	</table>
+
 
 @include('emailTemplates.standardFooter')
 @endsection

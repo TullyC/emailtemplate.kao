@@ -40,8 +40,8 @@ class EmailTemplateController extends Controller
 
     }
 
-    public function recentSericeTemplate(){
-    	return view('emailTemplates.recentSerice');
+    public function recentServiceTemplate(){
+    	return view('emailTemplates.recentService');
     	
     }
 }
