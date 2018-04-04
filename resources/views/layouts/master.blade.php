@@ -1,11 +1,16 @@
 @include('layouts.header')
 
 
-<style>
+<style type="text/css">
+	/*Fix for Apple Mail*/
+	@media only screen and (min-device-width: 601px) {
+		.content {width: 600px !important;}
+	}
+
 	body, #bodyTable { 
 		margin:0; 
 		padding:0;
-		width:600px;
+		max-width:600px;
 		margin:0 auto;
 	}
 	 body{
@@ -45,8 +50,7 @@
 		margin-top:10px;
 	}
 	table{
-		/*border: 1px solid black;
-		border-spacing: 15px;*/
+		max-width:600px;
 	}
 	table td{
 		padding:5px;
@@ -73,12 +77,22 @@
 </style>
 
 <body>
-	<table>
+	<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+        <td>
+            <![endif]-->
+	<table style="width:100%;">
 		<tr>
 			<td>
 				@yield('content')
 			</td>
 		</tr>	
 	</table>
+	<!--[if (gte mso 9)|(IE)]>
+        </td>
+    </tr>
+</table>
+<![endif]-->
 </body>
 @include('layouts.footer')

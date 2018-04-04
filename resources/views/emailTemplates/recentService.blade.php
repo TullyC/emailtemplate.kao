@@ -2,7 +2,7 @@
 @extends('layouts.master')
 @section('content')
 @include('emailTemplates.standardHeader')
-<table>
+<table style="max-width:600px;">
 	<tr>
 		<td>
 			<p>{ customer_first_name }</p>
