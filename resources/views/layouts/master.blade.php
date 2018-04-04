@@ -41,6 +41,8 @@
 		color:#000000;
 		background-color:;
 		background-color: #000000; height: 3px; border: 0;
+		margin-bottom:10px;
+		margin-top:10px;
 	}
 	table{
 		/*border: 1px solid black;
