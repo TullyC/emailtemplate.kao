@@ -35,10 +35,15 @@
 		font-size:1.5em;
 	}
 	h2{
-		font-size:1.4em;
+		font-size: 1.5em;
+    	float: left;
+    	padding-right: 5px;
+    	margin-bottom:0;
 	}
 	h3{
-		font-size:1.3em;
+		font-size:1.0em;
+		font-weight:900;
+		margin:0;
 	}
 	hr{
 		width:95%;
@@ -50,14 +55,14 @@
 		margin-top:10px;
 	}
 	table{
-		max-width:600px;
+		max-width:360px;
 	}
 	table td{
 		padding:5px;
 	}
 
 	tr{
-	 	padding:15px;
+	 	/*padding:15px;*/
 	}
 
 	.no_padd tr{
@@ -74,6 +79,12 @@
 	.small_pad p{
 		padding-bottom:5px;
 	}
+
+	a{
+		text-decoration:none;
+		color:black;
+
+	}
 </style>
 
 <body>
@@ -82,7 +93,7 @@
     <tr>
         <td>
             <![endif]-->
-	<table style="width:100%;">
+	<table style="width:100%; position:relative;">
 		<tr>
 			<td>
 				@yield('content')
