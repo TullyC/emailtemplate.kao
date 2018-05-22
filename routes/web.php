@@ -24,6 +24,7 @@ Route::get('/new_assigned_client','emailTemplateController@newAssignedClientTemp
 Route::get('/service_appointment','emailTemplateController@serviceAppointmentTemplate');
 Route::get('/service_high','emailTemplateController@serviceHighTemplate');
 Route::get('/recent_service','emailTemplateController@recentServiceTemplate');
+Route::get('/outlook_email_template','emailTemplateController@outlookServiceTemplate');
 
 
 

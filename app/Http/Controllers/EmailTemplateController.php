@@ -44,4 +44,9 @@ class EmailTemplateController extends Controller
     	return view('emailTemplates.recentService');
     	
     }
+
+      public function outlookServiceTemplate(){
+        return view('emailTemplates.outlookTemplate');
+        
+    }
 }
